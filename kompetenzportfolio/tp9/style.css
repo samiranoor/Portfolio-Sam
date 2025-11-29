@@ -1,0 +1,23 @@
+body {
+background-color: pink;
+}
+
+button {
+height: 200px;
+width: 250px;
+border-radius: 25px;
+background-color: red;
+color: white;
+margin: 30px;
+border: 2px solid yellow;
+transition: 0.2s;
+font-size: 2em;
+
+}
+
+button:hover {
+    background-color: yellow;
+    color: red;
+    transition: 150ms;
+    border: 2 px solid green;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page1</title>
+    <style>
+        /* ensure page takes full viewport and no scrolling for the image */
+        html, body { height: 100%; margin: 0; }
+        /* body acts as layout container; position:relative makes absolutely positioned children align to it */
+        body { background: lightblue; display:flex; align-items:center; justify-content:center; position:relative; }
+        /* reduced size so image appears smaller — change values to tweak */
+        .image-wrap img { max-width: 60vw; max-height: 60vh; width: auto; height: auto; display: block; }
+
+        /* keep the page heading fixed top-left of the viewport */
+        h1 {
+            position: fixed; /* fixed so it remains at top-left even when window resizes or content scrolls */
+            top: 12px;
+            left: 12px;
+            margin: 0;
+            padding: 4px 8px;
+            background: rgba(255,255,255,0.6); /* subtle background so text stays readable */
+            border-radius: 4px;
+            font-size: 1.25rem;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Page1</h1>
+
+    <!-- Use an <img> instead of an iframe so the image is rendered directly
+             and can be sized responsively to fit the viewport without scrollbars -->
+    <div class="image-wrap">
+        <img src="https://customlyon.com/wp-content/uploads/2023/07/Sneakers-custom-19-of-32-1024x768.jpg" alt="Sneakers custom" />
+    </div>
+
+</body>
+</html>

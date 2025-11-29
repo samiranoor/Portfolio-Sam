@@ -1,0 +1,88 @@
+/* === Style global === */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f4f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* === En-tête === */
+h1 {
+  text-align: center;
+  color: #f3098a;
+  margin-top: 40px;
+}
+
+/* === Paragraphe d’introduction === */
+p {
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* === Liste principale (TPs) === */
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  gap: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0;
+}
+
+/* === Éléments de la liste === */
+li {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px dotted #CCCCCC;
+}
+
+li:hover {
+  box-shadow: 2px 2px 4px 4px  #ff66b2;
+  border-radius: 10px;
+}
+
+/* === Liens === */
+a {
+  text-decoration: none;
+  color: #f3098a;
+  font-weight: bold;
+  font-size: 1.1rem;
+  
+}
+
+a:hover {
+  color: pink;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* === Responsive (mobile) === */
+@media (max-width: 600px) {
+  ul {
+    grid-template-columns: 1fr; /* 1 colonne sur petit écran */
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size:1.8rem;
+}
+}

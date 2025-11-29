@@ -1,0 +1,26 @@
+body {
+background-color: rgb(12, 194, 51);
+}
+h1{ 
+text-align: center;
+}
+
+button {
+height: 200px;
+width: 250px;
+border-radius: 25px;
+background-color: rgb(9, 91, 158);
+color: rgb(162, 31, 103);
+margin: 30px;
+border: 2px solid rgb(171, 24, 92);
+transition: 0.2s;
+font-size: 2em;
+
+}
+
+button:hover {
+    background-color: rgb(17, 125, 172);
+    color: rgb(173, 21, 21);
+    transition: 150ms;
+    border: 2 px solid rgb(78, 11, 178);
+}
