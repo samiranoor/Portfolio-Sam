@@ -1,39 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue sur mon portfolio numérique</title>
+    <title>Samira - Développeuse Web & Réseaux | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Portfolio Samira</h1>
-    <p>Je suis ravie de vous accueillir sur mon portfolio en ligne. Ici, vous trouverez une sélection de mes travaux, projets et réalisations. N'hésitez pas à parcourir les différentes sections pour en savoir plus sur mes compétences et mon expérience.</p>
-    <p>Si vous avez des questions ou souhaitez collaborer, n'hésitez pas à me contacter via la page de contact.</p>
-     <p>Merci de votre visite et bonne exploration !</p>
-    <ul>
-    <li><a href="tp1/">tp1</a></li>
-    <li><a href="tp2/">tp2</a></li>
-    <li><a href="tp3/">tp3</a></li>
-    <li><a href="tp4/">tp4</a></li>
-    <li><a href="tp5/">tp5</a></li>
-    <li><a href="tp7/tp7.pdf">tp7</a></li>
-    <li><a href="tp8/">tp8</a></li>
-    <li><a href="mission1/">mission1</a></li>
-    <li><a href="tps_js1/">tps_js1</a></li>
-    <li><a href="tps_js2/">tps_js2</a></li>
-    <li><a href="cours bootstrap/">bootstrap</a></li>
-    <li><a href="tp9/">tp9</a></li>
-    <li><a href="tp10/">tp10</a></li>
-    <li><a href="tp base de données/">tp1 base de données</a></li>
-    <li><a href="bases de données bd_voiture/">tp2 bases de données </a></li>
-    <li><a href="certification_anssi_dev_réseaux/cert_dev_réseaux_anssi.pdf">certification_dev_réseaux_ANSSI</a></li>
-    <li><a href="configuration_cisco.pkt">configuration_cisco</a></li>
-    <li><a href="certification_rgpd_dev/certification_dev_rgpd.pdf">certification_dev_RGPD</a></li>
-    <li><a href="mcd1_soldats/projet1.html">MCD Soldats</a></li>
-    <li><a href="mcd2_aquariums/projet2.html">MCD Aquariums</a></li>
-    </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Samira</div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- En-tête Hero -->
+    <header class="hero">
+        <div class="container">
+            <h1>Samira</h1>
+            <p class="subtitle">Développeuse Web | Réseaux | Bases de Données</p>
+            <p class="description">Passionnée par la création de solutions numériques innovantes</p>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Développeuse en formation spécialisée en développement web, réseaux informatiques et gestion de bases de données. Je suis enthousiaste à l'idée de créer des applications robustes et performantes tout en maîtrisant les aspects de sécurité et de conformité.</p>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            
+            <!-- Projets Web -->
+            <div class="project-category">
+                <h3>Développement Web</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>TPs - Pages Web</h4>
+                        <p>Travaux pratiques progressifs sur la création de pages web en HTML/CSS.</p>
+                        <div class="project-links">
+                            <a href="tp1/" class="btn-small">TP 1</a>
+                            <a href="tp2/" class="btn-small">TP 2</a>
+                            <a href="tp3/" class="btn-small">TP 3</a>
+                            <a href="tp4/" class="btn-small">TP 4</a>
+                            <a href="tp5/" class="btn-small">TP 5</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>JavaScript Avancé</h4>
+                        <p>Maîtrise du JavaScript pour créer des interfaces dynamiques et interactives.</p>
+                        <div class="project-links">
+                            <a href="tps_js1/" class="btn-small">JS 1</a>
+                            <a href="tps_js2/" class="btn-small">JS 2</a>
+                            <a href="tp9/" class="btn-small">TP 9</a>
+                            <a href="tp10/" class="btn-small">TP 10</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>Frameworks & Librairies</h4>
+                        <p>Utilisation de frameworks modernes pour accélérer le développement.</p>
+                        <div class="project-links">
+                            <a href="cours bootstrap/" class="btn-small">Bootstrap</a>
+                            <a href="tp8/" class="btn-small">TP 8</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>Projets Spécialisés</h4>
+                        <p>Missions et projets de plus grande envergure avec approche professionnelle.</p>
+                        <div class="project-links">
+                            <a href="mission1/" class="btn-small">Mission 1</a>
+                            <a href="tp7/tp7.pdf" class="btn-small">TP 7</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bases de Données -->
+            <div class="project-category">
+                <h3>Bases de Données</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Gestion des Véhicules</h4>
+                        <p>Système complet de gestion de base de données pour véhicules avec interface web.</p>
+                        <a href="bases de données bd_voiture/" class="btn-large">Voir le projet</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>Introduction aux BD</h4>
+                        <p>Premiers pas dans la conception et la gestion de bases de données relationnelles.</p>
+                        <a href="tp base de données/" class="btn-large">Voir le projet</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>MCD - Soldats</h4>
+                        <p>Modèle conceptuel de données pour système de gestion d'historique.</p>
+                        <a href="mcd1_soldats/projet1.html" class="btn-large">Voir le projet</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>MCD - Aquariums</h4>
+                        <p>Conception de base de données pour gestion d'aquariums avec schémas optimisés.</p>
+                        <a href="mcd2_aquariums/projet2.html" class="btn-large">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Réseaux & Certifications -->
+            <div class="project-category">
+                <h3>Réseaux & Certifications</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Certification ANSSI</h4>
+                        <p>Certification en développement réseaux - Expertise en sécurité informatique.</p>
+                        <a href="certification_anssi_dev_réseaux/cert_dev_réseaux_anssi.pdf" class="btn-large">Voir certificat</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>Certification RGPD</h4>
+                        <p>Certification développeur RGPD - Protection et conformité des données.</p>
+                        <a href="certification_rgpd_dev/certification_dev_rgpd.pdf" class="btn-large">Voir certificat</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h4>Configuration Cisco</h4>
+                        <p>Configuration et administration de réseaux avec équipements Cisco Packet Tracer.</p>
+                        <a href="configuration_cisco.pkt" class="btn-large">Voir config</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h4>Front-End</h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript ES6+</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h4>Back-End</h4>
+                    <ul>
+                        <li>Bases de Données</li>
+                        <li>SQL</li>
+                        <li>Modélisation (MCD/MLD)</li>
+                        <li>Architecture Web</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h4>Réseaux</h4>
+                    <ul>
+                        <li>Cisco Packet Tracer</li>
+                        <li>Configuration réseau</li>
+                        <li>Sécurité ANSSI</li>
+                        <li>Protocoles réseau</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h4>Conformité & Sécurité</h4>
+                    <ul>
+                        <li>RGPD</li>
+                        <li>Protection des données</li>
+                        <li>Sécurité web</li>
+                        <li>Bonnes pratiques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <p>Intéressé par mes projets, n'hésitez pas à me contacter pour discuter de collaborations ou de nouvelles opportunités.</p>
+            
+            <!-- Formulaire de Contact -->
+            <form class="contact-form" method="POST" action="https://formspree.io/f/xyzgvwjn" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Votre nom *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet *</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message *</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Envoyer mon message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Samira. Tous droits réservés.</p>
+        </div>
+    </footer>
 </body>
-
 </html>
-
